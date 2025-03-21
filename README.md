@@ -105,7 +105,7 @@ npm start
 - Participate in community discussions
 
 ## 📜 License
-[Specify License - e.g., MIT, Apache 2.0]
+[MIT License]
 
 ## 💡 Disclaimer
 This tool is for informational purposes and should not be considered financial advice.
