@@ -1,87 +1,94 @@
-# Koii Dumper Reveal: Blockchain Transaction Monitoring Node
+# Koii Dumper Reveal: Blockchain Transaction Monitoring Node 🕵️‍♂️🔍
 
-## 🌐 Project Overview
+## 📌 Project Overview
 
 ### Purpose
-Koii Dumper Reveal is an innovative, open-source blockchain analysis tool designed to monitor and track significant KOII token transactions, with a focus on identifying potential market manipulation and large-scale token movements.
+Koii Dumper Reveal is an innovative, open-source blockchain analysis tool designed to monitor and track significant KOII token transactions. The project focuses on identifying potential market manipulation and large-scale token movements, providing transparency and insights into blockchain transaction patterns.
 
 ### Key Features
-- 🕵️ Real-time blockchain transaction monitoring
-- 🔍 Exchange deposit address tracking
-- 📊 Large transfer detection
+- 🌐 Real-time blockchain transaction monitoring
+- 💱 Exchange deposit address tracking
+- 📊 Large transfer detection mechanism
 - 🔐 Verifiable transaction API
-- 🌈 Transparent, decentralized transaction analysis
+- 🔍 Transparent, decentralized transaction analysis
 
 ## 📂 Repository Structure
 
-### Directory Overview
+### Directory Breakdown
 ```
 koii-dumper-reveal/
 │
-├── src/                    # Source code directory
-│   ├── modules/            # Individual functional modules
-│   │   ├── rpc-query.js    # Blockchain RPC querying logic
-│   │   ├── transaction-analyzer.js  # Transaction analysis module
-│   │   └── api-server.js   # RESTful API implementation
+├── src/                    # Primary source code
+│   ├── modules/            # Core functional modules
+│   │   ├── rpc-query.js    # Blockchain RPC interaction
+│   │   ├── transaction-analyzer.js  # Transaction processing
+│   │   └── api-server.js   # API implementation
 │   │
-│   ├── config/             # Configuration files
-│   │   ├── exchanges.json  # Known exchange deposit addresses
-│   │   └── thresholds.json # Transaction flagging thresholds
+│   ├── config/             # Configuration management
+│   │   ├── exchanges.json  # Known exchange addresses
+│   │   └── thresholds.json # Transaction detection parameters
 │   │
 │   └── utils/              # Utility functions
 │       ├── logger.js       # Logging utilities
-│       └── verification.js # Transaction verification helpers
+│       └── verification.js # Transaction verification
 │
-├── tests/                  # Unit and integration tests
+├── tests/                  # Test suite
 │   ├── rpc-query.test.js
 │   ├── transaction-analyzer.test.js
 │   └── api-server.test.js
 │
 ├── .env.example            # Environment configuration template
-├── package.json            # Project dependencies and scripts
+├── package.json            # Project dependencies
 └── README.md               # Project documentation
 ```
 
-## 🔧 Technical Details
+## 🔧 Technical Architecture
 
-### Technologies
-- **Language**: JavaScript/TypeScript
-- **Runtime**: Node.js
+### Technologies Utilized
+- **Programming Language**: JavaScript/TypeScript
+- **Runtime Environment**: Node.js
 - **API Framework**: Express.js
 - **Blockchain Interaction**: Koii JSON-RPC
-- **Deployment**: Koii Task Framework
+- **Deployment Platform**: Koii Task Framework
 
-### Architecture Overview
-1. **RPC Query Module**: Polls Koii mainnet for new transactions
-2. **Transaction Analyzer**: Processes and flags suspicious transactions
-3. **Verification Service**: Ensures traceability and transparency
-4. **RESTful API**: Provides access to analyzed transaction data
+### System Architecture
+1. **RPC Query Module**: 
+   - Polls Koii mainnet for new transactions
+   - Manages blockchain data retrieval
+2. **Transaction Analyzer**:
+   - Processes and flags suspicious transactions
+   - Implements complex transaction tracking logic
+3. **Verification Service**:
+   - Ensures transaction traceability
+   - Maintains blockchain transparency
+4. **RESTful API**:
+   - Provides structured access to analyzed transaction data
 
-## 📄 Key File Contents
+## 📄 Key File Descriptions
 
 ### `src/modules/rpc-query.js`
-- Handles connection to Koii's mainnet RPC
-- Implements transaction retrieval logic
-- Manages periodic blockchain polling
+- Establishes connection to Koii mainnet RPC
+- Implements sophisticated transaction retrieval logic
+- Manages periodic blockchain data polling
 
 ### `src/modules/transaction-analyzer.js`
-- Defines rules for flagging transactions
-- Analyzes wallet interactions with exchanges
-- Tracks large token transfers and balance changes
+- Defines comprehensive rules for transaction flagging
+- Analyzes complex wallet interactions with exchanges
+- Tracks large token transfers and significant balance changes
 
 ### `src/modules/api-server.js`
-- Implements RESTful API endpoints
+- Implements secure RESTful API endpoints
 - Manages transaction data exposure
-- Handles request verification and response formatting
+- Handles request verification and standardized response formatting
 
-## 🚀 Getting Started
+## 🚀 Quick Start Guide
 
 ### Prerequisites
-- Node.js (v14+ recommended)
-- npm or yarn
-- Koii wallet
+- Node.js (v14 or higher recommended)
+- npm or yarn package manager
+- Active Koii wallet
 
-### Installation
+### Installation Steps
 ```bash
 git clone https://github.com/alexander-morris/koii-dumper-reveal.git
 cd koii-dumper-reveal
@@ -90,8 +97,9 @@ npm install
 
 ### Configuration
 1. Copy `.env.example` to `.env`
-2. Configure RPC endpoint and thresholds
-3. Set up exchange deposit addresses
+2. Configure RPC endpoint settings
+3. Define transaction thresholds
+4. Set up exchange deposit addresses
 
 ### Running the Node
 ```bash
@@ -99,17 +107,17 @@ npm start
 ```
 
 ## 🤝 Contributing
-- Check open issues
-- Submit pull requests
-- Follow coding standards
-- Participate in community discussions
+- Review open issues
+- Submit well-documented pull requests
+- Follow established coding standards
+- Engage in community discussions
 
 ## 📜 License
-[MIT License]
+MIT License - Open-source and community-driven
 
 ## 💡 Disclaimer
-This tool is for informational purposes and should not be considered financial advice.
+This tool provides blockchain transaction insights for informational purposes. It should not be considered financial advice.
 
 ---
 
-**Join the Koii Network and help maintain blockchain transparency! 🌟**
+**Join the Koii Network: Advancing Blockchain Transparency! 🌟**
